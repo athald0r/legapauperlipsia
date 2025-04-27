@@ -54,6 +54,10 @@ googleAnalytics = ""  # add your tracking id
     url = "/contact"
     weight = 5
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
 
