@@ -13337,4 +13337,8 @@ details[open] summary {
 .modal-close {
   background-color: #000000; }
 
+.content, p, article {
+    text-align: justify;
+}
+
 /*# sourceMappingURL=main.css.map */
