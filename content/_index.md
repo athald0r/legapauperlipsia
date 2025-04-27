@@ -4,7 +4,7 @@ title = "Lega Pauper Lipsia"
 
 ## Background
 
-![avatar](/static/images/avatar.png)
+![avatar](/images/avatar.png)
 
 Welcome to the <u>first and only LPI-affiliated Pauper League in Germany</u>! After a successful first season last winter with an average of 26 players, we are now taking the next logical step: double up for the upcoming second season! 
 
