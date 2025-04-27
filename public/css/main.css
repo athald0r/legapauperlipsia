@@ -13339,6 +13339,10 @@ details[open] summary {
 
 .content, p, article {
     text-align: justify;
+html {
+    overflow-y: scroll;
+}
+  
 }
 
 /*# sourceMappingURL=main.css.map */
