@@ -1,0 +1,58 @@
+title = "Lega Pauper Lipsia"
+baseURL = "https://example.com"
+theme = "researcher"
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+math = false          # enable KaTeX (https://katex.org/) globally
+googleAnalytics = ""  # add your tracking id
+
+[params]
+  author = ""
+  favicon = "favicon.ico"  # path to a .ico to use as favicon
+  logo = ""  # url or path to a logo to put in the header
+  [params.footer]
+    text = ""
+    url = ""
+  [params.style]  # appearance options (can be omitted)
+    fontFamily = "Inconsolata"
+    fontSize = "14pt"
+    pageWidth = "1000px"
+    avatarSize = "90px"
+    colorBlack = "#222222"
+    colorRed = "#dc3545"
+  [[params.socialIcons]]
+    icon = "fab fa-instagram"
+    title = "Instagram"
+    url = "https://www.instagram.com/lega_pauper_lipsia/"
+  [[params.socialIcons]]
+    icon = "fas fa-envelope"
+    title = "E-mail"
+    url = "mailto:lega-lipsia@gmail.com"
+
+[permalinks]
+  "/" = "/:filename"
+
+[menu]
+  [[menu.main]]
+    name = "Information"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Standings"
+    url = "/standings"
+    weight = 2
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 3
+  [[menu.main]]
+    name = "Merchandise"
+    url = "https://www.aufdemdach.com/"
+    weight = 4
+  [[menu.main]]
+    name = "About Us"
+    url = "/contact"
+    weight = 5
+
+[markup.goldmark.renderer]
+  unsafe = true  # allow raw HTML in markdown files

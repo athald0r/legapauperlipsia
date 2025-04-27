@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lega Pauper Lipsia</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Lega Pauper Lipsia</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LPL stomps Paupergeddon Lucca</title>
+      <link>http://localhost:1313/blog/250705/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/250705/</guid>
+      <description>&lt;p&gt;Phil finally played a deck he enjoys in the mainevent \o/&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Common Cause - Top 8 Decklists</title>
+      <link>http://localhost:1313/blog/250517/</link>
+      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/250517/</guid>
+      <description>&lt;p&gt;4 Rakdos Madness&#xA;1 Tron&#xA;1 Gruul Ramp&#xA;1 Jund Wildfire&#xA;1 Mono U Fae&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why UB Schnecke is the best deck</title>
+      <link>http://localhost:1313/blog/250425/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/250425/</guid>
+      <description>&lt;p&gt;Phils Bullshit goes here&#xA;Luca then fixed everything, thankfully&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>We are live!</title>
+      <link>http://localhost:1313/blog/250422/</link>
+      <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/250422/</guid>
+      <description>&lt;p&gt;dis gon b gud&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Us</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;LOGO PTTP hier?!&lt;/p&gt;&#xA;&lt;p&gt;We, the open Leipzig Magic group Pauper to the People have been playing Pauper and other formats together regularly for almost 10 years. We are united by the desire for a society without oppression and in our goal to create a supportive gaming environment where everyone feels comfortable, no matter who you are or how long you&amp;rsquo;ve been playing Magic.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;mailing-address&#34;&gt;Mailing Address&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;impressum-und-datenschutz&#34;&gt;Impressum und Datenschutz&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;social&#34;&gt;Social&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Facebook&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Google+&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Standings</title>
+      <link>http://localhost:1313/standings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/standings/</guid>
+      <description>&lt;p&gt;Hier Spicerack-API l0l&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,1278 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Max> hugo
+Total in 1 ms
+Error: Unable to locate config file or config directory. Perhaps you need to create a new site.
+Run `hugo help new` for details.
+PS C:\Users\Max> hugo new site pauper-league
+Congratulations! Your new Hugo site was created in C:\Users\Max\pauper-league.
+
+Just a few more steps...
+
+1. Change the current directory to C:\Users\Max\pauper-league.
+2. Create or install a theme:
+   - Create a new theme with the command "hugo new theme <THEMENAME>"
+   - Or, install a theme from https://themes.gohugo.io/
+3. Edit hugo.toml, setting the "theme" property to the theme name.
+4. Create new content with the command "hugo new content <SECTIONNAME>\<FILENAME>.<FORMAT>".
+5. Start the embedded web server with the command "hugo server --buildDrafts".
+
+See documentation at https://gohugo.io/.
+PS C:\Users\Max> cd pauper-league
+PS C:\Users\Max\pauper-league> git clone https://github.com/rhazdon/hugo-theme-hello-friend-ng themes/hello-friend-ng
+Cloning into 'themes/hello-friend-ng'...
+remote: Enumerating objects: 3828, done.
+remote: Total 3828 (delta 0), reused 0 (delta 0), pack-reused 3828 (from 1)
+Receiving objects: 100% (3828/3828), 9.80 MiB | 19.79 MiB/s, done.
+Resolving deltas: 100% (2109/2109), done.
+PS C:\Users\Max\pauper-league> theme = "hello-friend-ng"
+theme : The term 'theme' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ theme = "hello-friend-ng"
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (theme:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Max\pauper-league> open config.html
+open : The term 'open' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ open config.html
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (open:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Max\pauper-league> hugo server
+Watching for changes in C:\Users\Max\pauper-league\{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in C:\Users\Max\pauper-league\hugo.toml
+Start building sites …
+hugo v0.146.7-1ad3d39dc4693434505fc81f91eed57333017e93+extended windows/amd64 BuildDate=2025-04-22T17:26:42Z VendorInfo=gohugoio
+
+
+                   | EN
+-------------------+------
+  Pages            |   8
+  Paginator pages  |   0
+  Non-page files   |   0
+  Static files     | 547
+  Processed images |   0
+  Aliases          |   2
+  Cleaned          |   0
+
+Built in 2080 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+PS C:\Users\Max\pauper-league> git clone https://github.com/joeroe/risotto themes/risotto
+Cloning into 'themes/risotto'...
+remote: Enumerating objects: 1821, done.
+remote: Counting objects: 100% (989/989), done.
+remote: Compressing objects: 100% (150/150), done.
+Receiving objects:  98% (1785/1821)sed 839 (delta 839), pack-reused 832 (from 1)Receiving objects:  97% (1767/1821)
+Receiving objects: 100% (1821/1821), 1.35 MiB | 10.18 MiB/s, done.
+Resolving deltas: 100% (979/979), done.
+PS C:\Users\Max\pauper-league> theme = "risotto"
+theme : The term 'theme' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ theme = "risotto"
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (theme:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Max\pauper-league> hugo server
+Watching for changes in C:\Users\Max\pauper-league\{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in C:\Users\Max\pauper-league\hugo.toml, C:\Users\Max\pauper-league\themes\risotto\config.toml
+Start building sites …
+hugo v0.146.7-1ad3d39dc4693434505fc81f91eed57333017e93+extended windows/amd64 BuildDate=2025-04-22T17:26:42Z VendorInfo=gohugoio
+
+
+                   | EN
+-------------------+-----
+  Pages            |  7
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     | 26
+  Processed images |  0
+  Aliases          |  0
+  Cleaned          |  0
+
+Built in 91 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+PS C:\Users\Max\pauper-league> hugo new posts/homepage.md
+Content "C:\\Users\\Max\\pauper-league\\content\\posts\\homepage.md" created
+PS C:\Users\Max\pauper-league> hugo server
+Watching for changes in C:\Users\Max\pauper-league\{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in C:\Users\Max\pauper-league\hugo.toml, C:\Users\Max\pauper-league\themes\risotto\config.toml
+Start building sites …
+hugo v0.146.7-1ad3d39dc4693434505fc81f91eed57333017e93+extended windows/amd64 BuildDate=2025-04-22T17:26:42Z VendorInfo=gohugoio
+
+
+                   | EN
+-------------------+-----
+  Pages            |  9
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     | 26
+  Processed images |  0
+  Aliases          |  0
+  Cleaned          |  0
+
+Built in 5 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site (#1).
+2025-04-23 23:37:51.722 +0200
+Source changed /posts/homepage.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+PS C:\Users\Max\pauper-league> hugo server
+Watching for changes in C:\Users\Max\pauper-league\{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in C:\Users\Max\pauper-league\hugo.toml, C:\Users\Max\pauper-league\themes\risotto\config.toml
+Start building sites …
+hugo v0.146.7-1ad3d39dc4693434505fc81f91eed57333017e93+extended windows/amd64 BuildDate=2025-04-22T17:26:42Z VendorInfo=gohugoio
+
+
+                   | EN
+-------------------+-----
+  Pages            |  9
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     | 26
+  Processed images |  0
+  Aliases          |  0
+  Cleaned          |  0
+
+Built in 6 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+PS C:\Users\Max\pauper-league> hugo server
+Watching for changes in C:\Users\Max\pauper-league\{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in C:\Users\Max\pauper-league\hugo.toml, C:\Users\Max\pauper-league\themes\risotto\config.toml
+Start building sites …
+hugo v0.146.7-1ad3d39dc4693434505fc81f91eed57333017e93+extended windows/amd64 BuildDate=2025-04-22T17:26:42Z VendorInfo=gohugoio
+
+
+                   | EN
+-------------------+-----
+  Pages            |  9
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     | 26
+  Processed images |  0
+  Aliases          |  0
+  Cleaned          |  0
+
+Built in 8 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+PS C:\Users\Max\pauper-league> git clone https://github.com/victoriadrake/hugo-theme-introduction themes/introduction
+Cloning into 'themes/introduction'...
+remote: Enumerating objects: 5868, done.
+remote: Counting objects: 100% (426/426), done.
+remote: Compressing objects: 100% (271/271), done.
+Receiving objects: 100% (5868/5868), 11.78 MiB | 27.92 MiB/s, done. 5442 (from 1)
+
+Resolving deltas: 100% (3109/3109), done.
+PS C:\Users\Max\pauper-league> hugo server
+Watching for changes in C:\Users\Max\pauper-league\{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in C:\Users\Max\pauper-league\hugo.toml
+Start building sites …
+hugo v0.146.7-1ad3d39dc4693434505fc81f91eed57333017e93+extended windows/amd64 BuildDate=2025-04-22T17:26:42Z VendorInfo=gohugoio
+
+WARN  Raw HTML omitted while rendering "/"; see https://gohugo.io/getting-started/configuration-markup/#rendererunsafe
+You can suppress this warning by adding the following to your site configuration:
+ignoreLogs = ['warning-goldmark-raw-html']
+
+                   | EN
+-------------------+-----
+  Pages            | 10
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     | 39
+  Processed images |  0
+  Aliases          |  0
+  Cleaned          |  0
+
+Built in 402 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change of config file detected, rebuilding site (#1).
+2025-04-23 23:40:51.981 +0200
+WARN  Raw HTML omitted while rendering "/"; see https://gohugo.io/getting-started/configuration-markup/#rendererunsafe
+You can suppress this warning by adding the following to your site configuration:
+ignoreLogs = ['warning-goldmark-raw-html']
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 176 ms
+
+Change of config file detected, rebuilding site (#2).
+2025-04-23 23:40:54.481 +0200
+WARN  Raw HTML omitted while rendering "/"; see https://gohugo.io/getting-started/configuration-markup/#rendererunsafe
+You can suppress this warning by adding the following to your site configuration:
+ignoreLogs = ['warning-goldmark-raw-html']
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 188 ms
+
+Change of config file detected, rebuilding site (#3).
+2025-04-23 23:40:56.670 +0200
+WARN  Raw HTML omitted while rendering "/"; see https://gohugo.io/getting-started/configuration-markup/#rendererunsafe
+You can suppress this warning by adding the following to your site configuration:
+ignoreLogs = ['warning-goldmark-raw-html']
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 194 ms
+PS C:\Users\Max\pauper-league> npm i -g postcss postcss-cli autoprefixer
+npm : The term 'npm' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ npm i -g postcss postcss-cli autoprefixer
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (npm:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Max\pauper-league> cd exampleSite && HUGO_THEME="hugo-theme-introduction" hugo server --themesDir ../..
+At line:1 char:16
++ cd exampleSite && HUGO_THEME="hugo-theme-introduction" hugo server -- ...
++                ~~
+The token '&&' is not a valid statement separator in this version.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+
+PS C:\Users\Max\pauper-league> hugo new home/index.md
+Content "C:\\Users\\Max\\pauper-league\\content\\home\\index.md" created
+PS C:\Users\Max\pauper-league> hugo server
+Watching for changes in C:\Users\Max\pauper-league\{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in C:\Users\Max\pauper-league\hugo.toml
+Start building sites …
+hugo v0.146.7-1ad3d39dc4693434505fc81f91eed57333017e93+extended windows/amd64 BuildDate=2025-04-22T17:26:42Z VendorInfo=gohugoio
+
+WARN  Raw HTML omitted while rendering "/"; see https://gohugo.io/getting-started/configuration-markup/#rendererunsafe
+You can suppress this warning by adding the following to your site configuration:
+ignoreLogs = ['warning-goldmark-raw-html']
+
+                   | EN
+-------------------+-----
+  Pages            | 10
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     | 39
+  Processed images |  0
+  Aliases          |  0
+  Cleaned          |  0
+
+Built in 134 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site (#1).
+2025-04-23 23:44:43.050 +0200
+Source changed /home/index.md
+WARN  Raw HTML omitted while rendering "/"; see https://gohugo.io/getting-started/configuration-markup/#rendererunsafe
+You can suppress this warning by adding the following to your site configuration:
+ignoreLogs = ['warning-goldmark-raw-html']
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 7 ms
+
+Change detected, rebuilding site (#2).
+2025-04-23 23:44:50.049 +0200
+Source changed /home/index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 1 ms
+
+Change detected, rebuilding site (#3).
+2025-04-23 23:45:15.052 +0200
+Source changed /home/index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 6 ms
+
+Change detected, rebuilding site (#4).
+2025-04-23 23:46:29.549 +0200
+Source changed /home/index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 6 ms
+PS C:\Users\Max\pauper-league> # git clone https://github.com/ojroques/hugo-researcher.git themes/researcher
+PS C:\Users\Max\pauper-league> git clone https://github.com/ojroques/hugo-researcher.git themes/researcher
+Cloning into 'themes/researcher'...
+remote: Enumerating objects: 416, done.
+remote: Counting objects: 100% (188/188), done.
+remote: Compressing objects: 100% (101/101), done.
+Receiving objects: 100% (416/416)used 87 (delta 87), pack-reused 228 (from 1)
+Receiving objects: 100% (416/416), 402.90 KiB | 6.29 MiB/s, done.
+Resolving deltas: 100% (199/199), done.
+PS C:\Users\Max\pauper-league> cd C:\Users\Max\pauper-league\themes\researcher\exampleSite
+PS C:\Users\Max\pauper-league\themes\researcher\exampleSite> hugo server
+Hugo provides its own webserver which builds and serves the site.
+While hugo server is high performance, it is a webserver with limited options.
+
+The `hugo server` command will by default write and serve files from disk, but
+you can render to memory by using the `--renderToMemory` flag. This can be
+faster in some cases, but it will consume more memory.
+
+By default hugo will also watch your files for any changes you make and
+automatically rebuild the site. It will then live reload any open browser pages
+and push the latest content to them. As most Hugo sites are built in a fraction
+of a second, you will be able to save and see your changes nearly instantly.
+
+Usage:
+  hugo server [command] [flags]
+  hugo server [command]
+
+Aliases:
+  server, serve
+
+Available Commands:
+  trust       Install the local CA in the system trust store
+
+Flags:
+      --appendPort               append port to baseURL (default true)
+  -b, --baseURL string           hostname (and path) to the root, e.g. https://spf13.com/
+      --bind string              interface to which the server will bind (default "127.0.0.1")
+  -D, --buildDrafts              include content marked as draft
+  -E, --buildExpired             include expired content
+  -F, --buildFuture              include content with publishdate in the future
+      --cacheDir string          filesystem path to cache directory
+      --cleanDestinationDir      remove files from destination not found in static directories
+  -c, --contentDir string        filesystem path to content directory
+      --disableBrowserError      do not show build errors in the browser
+      --disableFastRender        enables full re-renders on changes
+      --disableKinds strings     disable different kind of pages (home, RSS etc.)
+      --disableLiveReload        watch without enabling live browser reload on rebuild
+      --enableGitInfo            add Git revision, date, author, and CODEOWNERS info to the pages
+      --forceSyncStatic          copy all files when static is changed.
+      --gc                       enable to run some cleanup tasks (remove unused cache files) after the build
+  -h, --help                     help for server
+      --ignoreCache              ignores the cache directory
+  -l, --layoutDir string         filesystem path to layout directory
+      --liveReloadPort int       port for live reloading (i.e. 443 in HTTPS proxy situations) (default -1)
+      --minify                   minify any supported output format (HTML, XML etc.)
+  -N, --navigateToChanged        navigate to changed content file on live browser reload
+      --noChmod                  don't sync permission mode of files
+      --noHTTPCache              prevent HTTP caching
+      --noTimes                  don't sync modification time of files
+  -O, --openBrowser              open the site in a browser after server startup
+      --panicOnWarning           panic on first WARNING log
+      --poll string              set this to a poll interval, e.g --poll 700ms, to use a poll based approach to watch for file system changes
+  -p, --port int                 port on which the server will listen (default 1313)
+      --pprof                    enable the pprof server (port 8080)
+      --printI18nWarnings        print missing translations
+      --printMemoryUsage         print memory usage to screen at intervals
+      --printPathWarnings        print warnings on duplicate target paths etc.
+      --printUnusedTemplates     print warnings on unused templates.
+      --renderSegments strings   named segments to render (configured in the segments config)
+      --renderStaticToDisk       serve static files from disk and dynamic files from memory
+      --templateMetrics          display metrics about template executions
+      --templateMetricsHints     calculate some improvement hints when combined with --templateMetrics
+  -t, --theme strings            themes to use (located in /themes/THEMENAME/)
+      --tlsAuto                  generate and use locally-trusted certificates.
+      --tlsCertFile string       path to TLS certificate file
+      --tlsKeyFile string        path to TLS key file
+      --trace file               write trace to file (not useful in general)
+  -w, --watch                    watch filesystem for changes and recreate as needed (default true)
+
+Global Flags:
+      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+      --config string              config file (default is hugo.yaml|json|toml)
+      --configDir string           config dir (default "config")
+  -d, --destination string         filesystem path to write files to
+  -e, --environment string         build environment
+      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+      --logLevel string            log level (debug|info|warn|error)
+      --noBuildLock                don't create .hugo_build.lock file
+      --quiet                      build in quiet mode
+  -M, --renderToMemory             render to memory (mostly useful when running the server)
+  -s, --source string              filesystem path to read files relative from
+      --themesDir string           filesystem path to themes directory
+
+Use "hugo server [command] --help" for more information about a command.
+
+Error: command error: failed to load modules: module "researcher" not found in "C:\\Users\\Max\\pauper-league\\themes\\researcher\\exampleSite\\themes\\researcher"; either add it as a Hugo Module or store it in "C:\\Users\\Max\\pauper-league\\themes\\researcher\\exampleSite\\themes".: module does not exist
+PS C:\Users\Max\pauper-league\themes\researcher\exampleSite> cd
+PS C:\Users\Max\pauper-league\themes\researcher\exampleSite> cd C:\Users\Max\pauper-league
+PS C:\Users\Max\pauper-league> hugo server
+Watching for changes in C:\Users\Max\pauper-league\{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in C:\Users\Max\pauper-league\hugo.toml
+Start building sites …
+hugo v0.146.7-1ad3d39dc4693434505fc81f91eed57333017e93+extended windows/amd64 BuildDate=2025-04-22T17:26:42Z VendorInfo=gohugoio
+
+
+                   | EN
+-------------------+-----
+  Pages            |  8
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  0
+  Processed images |  0
+  Aliases          |  0
+  Cleaned          |  0
+
+Built in 15 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site (#1).
+2025-04-23 23:57:09.703 +0200
+Source changed /_index.md
+Source changed /contact.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 6 ms
+
+Change of Static files detected, rebuilding site (#2).
+2025-04-23 23:58:03.205 +0200
+Syncing \avatar.jpg to \
+Syncing \favicon.ico to \
+Syncing \resume.pdf to \
+
+Change of config file detected, rebuilding site (#3).
+2025-04-23 23:59:45.203 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 23 ms
+
+Change detected, rebuilding site (#4).
+2025-04-24 00:02:01.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+
+Change detected, rebuilding site (#5).
+2025-04-24 00:02:02.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 4 ms
+
+Change of config file detected, rebuilding site (#6).
+2025-04-24 00:02:31.704 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 25 ms
+
+Change of config file detected, rebuilding site (#7).
+2025-04-24 00:03:13.704 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 25 ms
+
+Change of config file detected, rebuilding site (#8).
+2025-04-24 00:03:39.704 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 25 ms
+
+Change detected, rebuilding site (#9).
+2025-04-24 00:04:22.704 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change of config file detected, rebuilding site (#10).
+2025-04-24 00:09:21.703 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 27 ms
+
+Change of config file detected, rebuilding site (#11).
+2025-04-24 00:09:29.703 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 21 ms
+
+Change of config file detected, rebuilding site (#12).
+2025-04-24 00:09:32.704 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 21 ms
+
+Change of config file detected, rebuilding site (#13).
+2025-04-24 00:09:35.203 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 25 ms
+
+Change of config file detected, rebuilding site (#14).
+2025-04-24 00:09:41.703 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 22 ms
+
+Change of Static files detected, rebuilding site (#15).
+2025-04-24 00:11:46.703 +0200
+
+Change of Static files detected, rebuilding site (#16).
+2025-04-24 00:11:52.203 +0200
+Syncing \avatar.jpg.png to \
+
+Change of Static files detected, rebuilding site (#17).
+2025-04-24 00:11:52.704 +0200
+Syncing \avatar.jpg.png to \
+
+Change of Static files detected, rebuilding site (#18).
+2025-04-24 00:12:06.703 +0200
+Syncing \avatar.png to \
+
+Change detected, rebuilding site (#19).
+2025-04-24 00:12:20.704 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 11 ms
+
+Change detected, rebuilding site (#20).
+2025-04-24 00:12:22.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 11 ms
+
+Change detected, rebuilding site (#21).
+2025-04-24 00:12:26.705 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#22).
+2025-04-24 00:17:08.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#23).
+2025-04-24 00:17:26.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#24).
+2025-04-24 00:18:56.204 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 15 ms
+
+Change detected, rebuilding site (#25).
+2025-04-24 00:19:10.705 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 16 ms
+
+Change detected, rebuilding site (#26).
+2025-04-24 00:20:01.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change detected, rebuilding site (#27).
+2025-04-24 00:21:09.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+
+Change detected, rebuilding site (#28).
+2025-04-24 00:21:19.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 11 ms
+
+Change detected, rebuilding site (#29).
+2025-04-24 00:21:20.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 4 ms
+
+Change detected, rebuilding site (#30).
+2025-04-24 00:22:02.704 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change detected, rebuilding site (#31).
+2025-04-24 00:22:32.204 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 24 ms
+
+Change detected, rebuilding site (#32).
+2025-04-24 00:22:35.705 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 8 ms
+
+Change detected, rebuilding site (#33).
+2025-04-24 00:23:14.704 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 11 ms
+
+Change detected, rebuilding site (#34).
+2025-04-24 00:23:28.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change detected, rebuilding site (#35).
+2025-04-24 00:23:32.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+
+Change detected, rebuilding site (#36).
+2025-04-24 00:23:55.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#37).
+2025-04-24 00:24:27.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 12 ms
+
+Change detected, rebuilding site (#38).
+2025-04-24 00:24:48.704 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 14 ms
+
+Change detected, rebuilding site (#39).
+2025-04-24 00:25:01.704 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 11 ms
+
+Change detected, rebuilding site (#40).
+2025-04-24 00:25:02.704 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 7 ms
+
+Change detected, rebuilding site (#41).
+2025-04-24 00:25:04.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+
+Change detected, rebuilding site (#42).
+2025-04-24 00:25:09.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#43).
+2025-04-24 00:25:15.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 12 ms
+
+Change detected, rebuilding site (#44).
+2025-04-24 00:25:37.704 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change detected, rebuilding site (#45).
+2025-04-24 00:25:54.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#46).
+2025-04-24 00:26:43.705 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#47).
+2025-04-24 00:27:42.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 12 ms
+
+Change detected, rebuilding site (#48).
+2025-04-24 00:28:07.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#49).
+2025-04-24 00:32:08.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#50).
+2025-04-24 00:35:38.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change detected, rebuilding site (#51).
+2025-04-24 00:36:23.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#52).
+2025-04-24 00:37:00.205 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change detected, rebuilding site (#53).
+2025-04-24 00:37:21.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#54).
+2025-04-24 00:37:22.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 20 ms
+
+Change detected, rebuilding site (#55).
+2025-04-24 00:39:58.704 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#56).
+2025-04-24 00:44:16.203 +0200
+Source changed /contact.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+
+Change detected, rebuilding site (#57).
+2025-04-24 00:45:53.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 12 ms
+
+Change detected, rebuilding site (#58).
+2025-04-24 00:46:23.204 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 15 ms
+
+Change detected, rebuilding site (#59).
+2025-04-24 00:46:33.204 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#60).
+2025-04-24 00:47:19.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#61).
+2025-04-24 00:48:21.704 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 15 ms
+
+Change detected, rebuilding site (#62).
+2025-04-24 00:49:31.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+
+Change detected, rebuilding site (#63).
+2025-04-24 00:49:38.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 14 ms
+
+Change detected, rebuilding site (#64).
+2025-04-24 00:50:32.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change detected, rebuilding site (#65).
+2025-04-24 00:51:11.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 12 ms
+
+Change detected, rebuilding site (#66).
+2025-04-24 00:57:23.204 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 11 ms
+
+Change detected, rebuilding site (#67).
+2025-04-24 00:57:46.704 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 19 ms
+
+Change detected, rebuilding site (#68).
+2025-04-24 00:58:16.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 12 ms
+
+Change detected, rebuilding site (#69).
+2025-04-24 00:58:44.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 15 ms
+
+Change detected, rebuilding site (#70).
+2025-04-24 00:59:00.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 11 ms
+
+Change detected, rebuilding site (#71).
+2025-04-24 01:00:48.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 11 ms
+
+Change detected, rebuilding site (#72).
+2025-04-24 01:01:09.205 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 11 ms
+
+Change detected, rebuilding site (#73).
+2025-04-24 01:01:56.704 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 11 ms
+
+Change detected, rebuilding site (#74).
+2025-04-24 01:02:03.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change detected, rebuilding site (#75).
+2025-04-24 01:02:17.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 14 ms
+
+Change detected, rebuilding site (#76).
+2025-04-24 01:04:10.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change detected, rebuilding site (#77).
+2025-04-24 01:04:33.703 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 12 ms
+
+Change detected, rebuilding site (#78).
+2025-04-24 01:04:37.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change detected, rebuilding site (#79).
+2025-04-24 01:06:15.705 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 14 ms
+
+Change of config file detected, rebuilding site (#80).
+2025-04-24 01:06:48.704 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 30 ms
+
+Change of config file detected, rebuilding site (#81).
+2025-04-24 01:07:09.703 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 27 ms
+
+Change of config file detected, rebuilding site (#82).
+2025-04-24 01:07:23.703 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 25 ms
+
+Change of config file detected, rebuilding site (#83).
+2025-04-24 01:07:39.203 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 35 ms
+
+Change of config file detected, rebuilding site (#84).
+2025-04-24 01:07:56.203 +0200
+ERROR Failed to reload config: failed to load config: "C:\Users\Max\pauper-league\hugo.toml:1:1": unmarshal failed: toml: key icon is already defined
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 19 ms
+
+Change of config file detected, rebuilding site (#85).
+2025-04-24 01:07:59.713 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 24 ms
+
+Change of config file detected, rebuilding site (#86).
+2025-04-24 01:08:17.206 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 34 ms
+
+Change of config file detected, rebuilding site (#87).
+2025-04-24 01:08:23.203 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 28 ms
+
+Change of config file detected, rebuilding site (#88).
+2025-04-24 01:08:33.203 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 28 ms
+
+Change detected, rebuilding site (#89).
+2025-04-24 01:08:59.203 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change of config file detected, rebuilding site (#90).
+2025-04-24 01:09:18.703 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 35 ms
+
+Change detected, rebuilding site (#91).
+2025-04-24 01:10:12.203 +0200
+Source changed /contact---copy.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 8 ms
+
+Change detected, rebuilding site (#92).
+2025-04-24 01:10:19.703 +0200
+Source changed /contact---copy.md
+Source changed /standings.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change detected, rebuilding site (#93).
+2025-04-24 01:10:41.703 +0200
+Source changed /standings.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 8 ms
+
+Change of config file detected, rebuilding site (#94).
+2025-04-24 01:11:33.703 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 31 ms
+
+Change of config file detected, rebuilding site (#95).
+2025-04-24 01:11:40.703 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 31 ms
+
+Change of config file detected, rebuilding site (#96).
+2025-04-24 01:12:14.203 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 33 ms
+
+Change of config file detected, rebuilding site (#97).
+2025-04-24 01:12:28.704 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 50 ms
+
+Change detected, rebuilding site (#98).
+2025-04-24 01:14:11.703 +0200
+Source changed /standings---copy.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#99).
+2025-04-24 01:14:15.704 +0200
+Source changed /standings---copy.md
+Source changed /blog.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change of config file detected, rebuilding site (#100).
+2025-04-24 01:14:22.703 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 33 ms
+
+Change detected, rebuilding site (#101).
+2025-04-24 01:14:41.703 +0200
+Source changed /blog.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+PS C:\Users\Max\pauper-league> hugo server
+Watching for changes in C:\Users\Max\pauper-league\{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in C:\Users\Max\pauper-league\hugo.toml
+Start building sites …
+hugo v0.146.7-1ad3d39dc4693434505fc81f91eed57333017e93+extended windows/amd64 BuildDate=2025-04-22T17:26:42Z VendorInfo=gohugoio
+
+
+                   | EN
+-------------------+-----
+  Pages            |  7
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  3
+  Processed images |  0
+  Aliases          |  0
+  Cleaned          |  0
+
+Built in 8 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change of config file detected, rebuilding site (#1).
+2025-04-24 02:15:38.478 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 21 ms
+
+Change of config file detected, rebuilding site (#2).
+2025-04-24 02:15:49.977 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 23 ms
+
+Change of config file detected, rebuilding site (#3).
+2025-04-24 02:17:24.978 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 20 ms
+
+Change of config file detected, rebuilding site (#4).
+2025-04-24 02:17:31.978 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 21 ms
+
+Change detected, rebuilding site (#5).
+2025-04-24 02:18:28.477 +0200
+Source changed /blog.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 8 ms
+
+Change of config file detected, rebuilding site (#6).
+2025-04-24 02:18:31.477 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 18 ms
+
+Change detected, rebuilding site (#7).
+2025-04-24 02:18:31.977 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 12 ms
+
+Change detected, rebuilding site (#8).
+2025-04-24 02:18:36.477 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 5 ms
+
+Change detected, rebuilding site (#9).
+2025-04-24 02:19:30.477 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+
+Change detected, rebuilding site (#10).
+2025-04-24 02:19:55.477 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+
+Change detected, rebuilding site (#11).
+2025-04-24 02:19:58.478 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 11 ms
+
+Change detected, rebuilding site (#12).
+2025-04-24 02:20:20.978 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+
+Change detected, rebuilding site (#13).
+2025-04-24 02:20:51.979 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#14).
+2025-04-24 02:21:03.477 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#15).
+2025-04-24 02:21:20.977 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 12 ms
+
+Change detected, rebuilding site (#16).
+2025-04-24 02:22:55.478 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+
+Change detected, rebuilding site (#17).
+2025-04-24 02:23:25.977 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+
+Change detected, rebuilding site (#18).
+2025-04-24 02:23:46.978 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 12 ms
+
+Change detected, rebuilding site (#19).
+2025-04-24 02:23:52.477 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#20).
+2025-04-24 02:24:06.979 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change detected, rebuilding site (#21).
+2025-04-24 02:24:18.477 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 14 ms
+
+Change detected, rebuilding site (#22).
+2025-04-24 02:24:26.978 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 14 ms
+
+Change detected, rebuilding site (#23).
+2025-04-24 02:24:46.477 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 10 ms
+
+Change detected, rebuilding site (#24).
+2025-04-24 02:24:53.478 +0200
+Source changed /_index.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+
+Change detected, rebuilding site (#25).
+2025-04-24 02:25:47.478 +0200
+Source changed /contact.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 7 ms
+
+Change detected, rebuilding site (#26).
+2025-04-24 02:25:54.478 +0200
+Source changed /contact.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 8 ms
+
+Change detected, rebuilding site (#27).
+2025-04-24 02:25:57.479 +0200
+Source changed /contact.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 9 ms
+
+Change detected, rebuilding site (#28).
+2025-04-24 02:26:15.477 +0200
+Source changed /contact.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 7 ms
+
+Change detected, rebuilding site (#29).
+2025-04-24 02:26:18.978 +0200
+Source changed /contact.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 7 ms
+
+Change detected, rebuilding site (#30).
+2025-04-24 02:26:27.479 +0200
+Source changed /contact.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 11 ms
+
+Change of Static files detected, rebuilding site (#31).
+2025-04-24 02:28:46.478 +0200
+Syncing \New Text Document.txt to \
+
+Change of Static files detected, rebuilding site (#32).
+2025-04-24 02:28:52.478 +0200
+Syncing \style.css.txt to \
+
+Change of Static files detected, rebuilding site (#33).
+2025-04-24 02:29:05.477 +0200
+Syncing \style.css.txt to \
+
+Change of config file detected, rebuilding site (#34).
+2025-04-24 02:29:36.978 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 26 ms
+
+Change of config file detected, rebuilding site (#35).
+2025-04-24 02:29:58.477 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 24 ms
+
+Change of config file detected, rebuilding site (#36).
+2025-04-24 02:30:03.977 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 18 ms
+
+Change of Static files detected, rebuilding site (#37).
+2025-04-24 02:30:08.977 +0200
+
+Change of Static files detected, rebuilding site (#38).
+2025-04-24 02:30:10.977 +0200
+
+Change of Static files detected, rebuilding site (#39).
+2025-04-24 02:30:11.477 +0200
+
+Change of config file detected, rebuilding site (#40).
+2025-04-24 02:31:25.477 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 27 ms
+
+Change of config file detected, rebuilding site (#41).
+2025-04-24 02:31:47.978 +0200
+ERROR Failed to reload config: failed to load config: "C:\Users\Max\pauper-league\hugo.toml:23:11": unmarshal failed: toml: expected character =
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 22 ms
+
+Change of config file detected, rebuilding site (#42).
+2025-04-24 02:31:52.979 +0200
+ERROR Failed to reload config: failed to load config: "C:\Users\Max\pauper-league\hugo.toml:23:14": unmarshal failed: toml: incomplete number
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 21 ms
+
+Change of config file detected, rebuilding site (#43).
+2025-04-24 02:31:55.993 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 29 ms
+
+Change of config file detected, rebuilding site (#44).
+2025-04-24 02:32:01.477 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 19 ms
+
+Change of config file detected, rebuilding site (#45).
+2025-04-24 02:32:47.477 +0200
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 32 ms
