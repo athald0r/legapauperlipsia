@@ -8,17 +8,4 @@ We, the open Leipzig Magic group Pauper to the People have been playing Pauper a
 
 ---
 
-## Mailing Address
-
----
-
 ## Impressum und Datenschutz
-
----
-
-## Social
-
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)
-
