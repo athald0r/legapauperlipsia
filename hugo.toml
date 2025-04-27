@@ -55,17 +55,19 @@ staticDir = "static"
     url = "/contact"
     weight = 5
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
-
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
 
-[[module.mounts]]
-source = 'static'
-target = 'static'
+  [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.image]
+        enableDefault = true
 
-[[module.mounts]]
-source = 'images'
-target = 'static'
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    source = 'static'
+    target = 'assets'
