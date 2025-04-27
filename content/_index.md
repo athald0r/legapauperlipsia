@@ -12,11 +12,11 @@ We're proud to announce that the next season of **Lega Pauper Lipsia** will run 
 
 ## League Information
 
-As an officially **[LPI-affiliated league](https://www.legapauperitalia.it/home)**, we directly participate in the global Pauper tournament scene and are allocated **two byes** for the **Paupergeddon Winter 2026**. These byes can be earned by either **accumulating the most points** over the course of the league or by **winning the Top 8** at the end of the season. Please visit the **Standings page** for a daily updated overview of your points. Importantly, only **6 out of the 8 stages count toward your final score**! By winning a stage you **will also receive a trophy**, which can be used as an **entry ticket for the playoffs**. 
+As an officially **[LPI-affiliated league](https://www.legapauperitalia.it/home)**, we directly participate in the global Pauper tournament scene and will most likely be allocated **two byes** for the **Paupergeddon Winter 2026**. These byes can be earned by either **accumulating the most points** over the course of the league or by **winning the Top 8** at the end of the season. Please visit the **Standings page** for a daily updated overview of your points. Importantly, only **6 out of the 8 stages count toward your final score**! By winning a stage you **will also receive a trophy**, which can be used as an **entry ticket for the playoffs**. 
 
 ## Dates and Registration
 
-Our league will take place once a month, with organisation, registration and all other details handled through [Spicerack](https://www.spicerack.gg/events/discover). The entry fee for each event is **10€**, paid directly via Spicerack. If you somehow cannot pay through Spicerack, please contact us. 
+Our league will take place once a month, with organisation, registration and all other details handled through [Spicerack](https://www.spicerack.gg/events/discover). The entry fee for each event is **10€**, paid directly via Spicerack. If you somehow cannot pay through Spicerack, please [contact us](mailto:lega.lipsia@gmail.com). 
 
 To register for an event, simply click the related link below. Once registered, ensure your **decklist** is uploaded to Spicerack **by the start of the tournament** at the latest! 
 
