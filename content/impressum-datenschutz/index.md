@@ -35,7 +35,7 @@ Datum und Uhrzeit des Zugriffs
 Aufgerufene Seite/URL
 Browsertyp und -version
 Verwendetes Betriebssystem
-Diese Daten dienen der technischen Bereitstellung der Webseite, der Sicherheit und der Fehleranalyse. Eine Zusammenführung mit anderen Datenquellen erfolgt nicht. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bereitstellung und Sicherheit der Webseite). Die Daten werden **[Dauer, z.B. „nach 7 Tagen“]** gelöscht.
+Diese Daten dienen der technischen Bereitstellung der Webseite, der Sicherheit und der Fehleranalyse. Eine Zusammenführung mit anderen Datenquellen erfolgt nicht. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bereitstellung und Sicherheit der Webseite). Die Daten werden _[Dauer, z.B. „nach 7 Tagen“]_ gelöscht.
 
 #### 2.2 Kontaktformular oder E-Mail-Kontakt
 
