@@ -66,17 +66,25 @@ $y-medium: 1.0rem;
     }
     p {
         margin-bottom: $y-small;
+        text-align: justify; /* Justify paragraph text */
     }
     h1, h2, h3, h4, h5, h6 {
         font-size: medium;
         font-weight: bold;
         margin: $y-medium 0 $y-small 0;
+        text-align: justify; /* Justify headings if desired */
     }
+    /* Existing heading size rules */
     @for $i from 1 through 4 {
         h#{$i} {
             font-size: 1.2rem + 0.2 * (4 - $i);
         }
     }
+    /* Justify other text elements */
+    ul, ol, blockquote, table {
+        text-align: justify;
+    }
+}
     img {
         display: block;
         margin: $y-medium auto;
