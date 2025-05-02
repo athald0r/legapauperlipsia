@@ -104,6 +104,12 @@ $y-medium: 1.0rem;
     max-width: $avatar-size; /* Match the avatar size, default 90px */
     height: auto; /* Maintain aspect ratio */
 }
+    .matchdays-table-container {
+    overflow-x: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 10px; /* Optional: adds padding to avoid edge clipping */
+}
     ol {
         counter-reset: list;
         list-style: none;
