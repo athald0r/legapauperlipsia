@@ -174,7 +174,7 @@ $y-medium: 1.0rem;
     a {
         @extend %link-dark;
     }
-    .fa-envelope.fa-1x, .fa-instagram.fa-1x {
+    .fa-envelope.fa-2x, .fa-instagram.fa-2x {
         font-size: 1.5rem; /* Existing rule for larger icons */
         margin: 0 8px; /* Add 8px spacing on left and right */
     }
