@@ -6,9 +6,7 @@ title = "Lega Pauper Lipsia"
 
 {{< figure class="pic" src="/images/avatar.png" alt="avatar">}} 
 
-Welcome to the <u>first and only LPI-affiliated Pauper League in Germany</u>! After a successful inaugural season last winter with an average of 26 players, we are now taking the next logical step: doubling up for the upcoming second season! 
-
-We're proud to announce that the next season of **Lega Pauper Lipsia** will run from **June 2025 to January 2026** over **8 matchdays**, with a capacity of **up to 64 players**!
+Welcome to the <u>first and only LPI-affiliated Pauper League in Germany</u>! After a successful inaugural season last winter with an average of 26 players, we are now taking the next logical step: doubling up for the upcoming second season! We're proud to announce that the next season of **Lega Pauper Lipsia** will run from **June 2025 to January 2026** over **8 matchdays**, with a capacity of **up to 64 players**!
 
 ## League Information
 
