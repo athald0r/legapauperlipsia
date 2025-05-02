@@ -33,7 +33,7 @@ Stage| Date | Location |Registration|Players
 
 ## Rules
 
-The following rules apply for each match day:
+The following rules apply for each matchday:
 
 1. **REL Regular** with playing judges
 2. **5-6 rounds** of Swiss, no Top8
