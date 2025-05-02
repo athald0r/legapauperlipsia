@@ -43,7 +43,7 @@ The following rules apply for each matchday:
 6. **Decklist must be uploaded** by the start of the tournament
 6. Commitment to fostering a **friendly, open and welcoming environment**
 
-## Prices
+## Prizes
 
 {{< figure class="pic" src="/images/UG-Logo-2022-Signet-Black 2.png" alt="ug">}} 
 
