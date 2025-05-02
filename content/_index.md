@@ -41,8 +41,11 @@ The following rules apply for each match day:
 4. Adherence to the **[Pauper Banlist](https://magic.wizards.com/en/banned-restricted-list)**
 5. **Proxy-friendly**, as long as proxies do not provide an unfair advantage
 6. **Decklist must be uploaded** by the start of the tournament
-6. Commitment to fostering a **friendly, open and welcoming magic Pauper environment**
+6. Commitment to fostering a **friendly, open and welcoming environment**
 
+## Prices
 
+{{< figure class="avatar" src="/images/UG-Logo-2022-Signet-Black 2.png" alt="ug">}} 
 
+Our league is proudly sponsored by **[Ultimate Guard](https://ultimateguard.com/)**,  providing awesome TCG-accessoires. Every matchday is packed with exciting Pauper-related prizes for **all participants**, including staples, hand-crafted promos, and stamped league cards. Attending our events in Leipzig will be well worth your time, no matter your ranking. Of course, top Pauper players will earn extra rewards! To keep the season’s surprises fresh, we invite you to join us and experience the fun firsthand. ;-)
 
