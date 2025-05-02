@@ -47,5 +47,5 @@ The following rules apply for each match day:
 
 {{< figure class="avatar" src="/images/UG-Logo-2022-Signet-Black 2.png" alt="ug">}} 
 
-Our league is proudly sponsored by **[Ultimate Guard](https://ultimateguard.com/)**,  providing awesome TCG-accessoires. Every matchday is packed with exciting Pauper-related prizes for **all participants**, including staples, hand-crafted promos, and stamped league cards. Attending our events in Leipzig will be well worth your time, no matter your ranking. Of course, top Pauper players will earn extra rewards! To keep the season’s surprises fresh, we invite you to join us and experience the fun firsthand. ;-)
+Our league is proudly sponsored by **[Ultimate Guard](https://ultimateguard.com/)**,  providing awesome TCG-accessoires. Every matchday is packed with exciting Pauper-related prizes for **all participants**, including staples, hand-crafted promos, and stamped league cards. Attending our events in Leipzig will be well worth your time, no matter your final placement- but of course, performing well will earn extra rewards, too! To keep the season’s surprises fresh, we invite you to join us and experience the fun firsthand. ;-)
 
