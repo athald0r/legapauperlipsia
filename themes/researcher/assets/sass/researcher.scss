@@ -185,3 +185,9 @@ $y-medium: 1.0rem;
         margin: 0 8px; /* Add 8px spacing on left and right */
     }
 }
+html {
+    overflow-y: auto;
+}
+body {
+    padding-right: calc(100vw - 100%); /* Reserves space for potential scrollbar */
+}
