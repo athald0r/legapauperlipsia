@@ -90,12 +90,11 @@ $y-medium: 1.0rem;
         width: $avatar-size;
     }
     .pic > img {
-    border-radius: 0; /* Remove circular clipping; adjust if you want a different border-radius */
+    border-radius: 0; /* Adjust if you want a circular or rounded image */
     float: right;
     margin: -8px 0 0 16px;
-    max-width: 100%; /* Ensure the image doesn’t exceed its container */
+    max-width: $avatar-size; /* Match the avatar size, default 90px */
     height: auto; /* Maintain aspect ratio */
-    width: auto; /* Allow natural width */
 }
     ol {
         counter-reset: list;
