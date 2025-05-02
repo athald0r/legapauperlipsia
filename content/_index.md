@@ -14,7 +14,7 @@ As an officially **[LPI-affiliated league](https://www.legapauperitalia.it/home)
 
 ## Dates and Registration
 
-Our league will take place once a month, with organisation, registration and all other details handled through **[Spicerack](https://www.spicerack.gg/events/discover)**. The entry fee for each event is **10€**, paid directly via Spicerack. If you somehow cannot pay through Spicerack, please **[contact us](mailto:lega.lipsia@gmail.com)**! 
+Our league will take place once a month, with organisation, registration and all other details handled through **[Spicerack](https://www.spicerack.gg/events/discover)**. The entry fee for each event is **10€**, paid directly via Spicerack. Please also note that a refund is possible **only up to 48 hours** before the start of the event. If you somehow cannot pay through Spicerack, please **[contact us](mailto:lega.lipsia@gmail.com)**! 
 
 To register for an event, simply click the related link below. Once registered, ensure your **decklist** is uploaded to Spicerack **by the start of the tournament** at the latest! 
 
