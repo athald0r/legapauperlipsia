@@ -10,7 +10,7 @@ Welcome to the <u>first and only LPI-affiliated Pauper League in Germany</u>! Af
 
 ## League Information
 
-As an officially **[LPI-affiliated league](https://www.legapauperitalia.it/home)**, we directly participate in the global Pauper tournament scene and will most likely be allocated **two byes** for the **Paupergeddon Winter 2026**. These byes can be earned by either **accumulating the most points** over the course of the league or by **winning the Top 8** at the end of the season. Please visit the **Standings page** for a daily updated overview of your points. Importantly, only **6 out of the 8 stages count toward your final score**! By winning a stage you **will also receive a trophy**, which can be used as an **entry ticket for the playoffs**. 
+As an official **[LPI-affiliated league](https://www.legapauperitalia.it/home)**, we directly participate in the global Pauper tournament scene and will most likely be allocated **two byes** for the **Paupergeddon Winter 2026**. These byes can be earned by either **accumulating the most points** over the course of the league or by **winning the Top 8** at the end of the season. Please visit the **Standings page** for a daily updated overview of your points. Importantly, only **6 out of the 8 stages count toward your final score**! By winning a stage you **will also receive a trophy**, which can be used as an **entry ticket for the playoffs**. 
 
 ## Dates and Registration
 
