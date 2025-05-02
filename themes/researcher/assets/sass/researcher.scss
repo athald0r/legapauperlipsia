@@ -89,6 +89,12 @@ $y-medium: 1.0rem;
         height: $avatar-size;
         width: $avatar-size;
     }
+    .pic > img_small {
+        float: right;
+        margin: -8px 0 0 16px;
+        height: $avatar-size;
+        width: $avatar-size;
+    }
     ol {
         counter-reset: list;
         list-style: none;
