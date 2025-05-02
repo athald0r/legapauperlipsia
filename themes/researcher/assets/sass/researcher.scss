@@ -90,12 +90,13 @@ $y-medium: 1.0rem;
         width: $avatar-size;
     }
     .pic > img {
-        border-radius: 100%;
-        float: right;
-        margin: -8px 0 0 16px;
-        height: $avatar-size;
-        width: $avatar-size;
-    }
+    border-radius: 0; /* Remove circular clipping; adjust if you want a different border-radius */
+    float: right;
+    margin: -8px 0 0 16px;
+    max-width: 100%; /* Ensure the image doesn’t exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Allow natural width */
+}
     ol {
         counter-reset: list;
         list-style: none;
