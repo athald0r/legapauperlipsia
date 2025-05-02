@@ -33,7 +33,7 @@ Stage| Date | Location |Registration|Players
 
 ## Rules
 
-The following rules apply for each matchday:
+The following rules apply for each matchday and infringement will lead to disqualification:
 
 1. **[REL Regular](https://mtg.fandom.com/wiki/Rules_Enforcement_Level)** with playing judges
 2. **5-6 rounds** of Swiss, no Top8
