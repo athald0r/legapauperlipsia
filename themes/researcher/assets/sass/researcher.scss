@@ -186,8 +186,8 @@ $y-medium: 1.0rem;
     }
 }
 html {
-    overflow-y: auto;
+    overflow-y: scroll; /* Always show scrollbar */
 }
 body {
-    padding-right: calc(100vw - 100%); /* Reserves space for potential scrollbar */
+    padding-right: 0; /* No padding needed since scrollbar is always present */
 }
