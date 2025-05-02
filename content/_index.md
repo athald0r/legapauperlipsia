@@ -37,7 +37,7 @@ The following rules apply for each matchday:
 
 1. **REL Regular** with playing judges
 2. **5-6 rounds** of Swiss, no Top8
-3. **Promos** for every participant; **Prices** for Top16
+3. **Promos** for every participant; **Prizes** for Top16
 4. Adherence to the **[Pauper Banlist](https://magic.wizards.com/en/banned-restricted-list)**
 5. **Proxy-friendly**, as long as proxies do not provide an unfair advantage
 6. **Decklist must be uploaded** by the start of the tournament
