@@ -48,7 +48,7 @@ staticDir = "static"
     weight = 3
   [[menu.main]]
     name = "Merchandise"
-    url = "https://www.aufdemdach.com/"
+    url = "https://www.aufdemdach.com/prints"
     weight = 4
   [[menu.main]]
     name = "About Us"
