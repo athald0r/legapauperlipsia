@@ -18,6 +18,7 @@ Our league will take place once a month, with organisation, registration and all
 
 To register for an event, simply click the related link below. Once registered, ensure your **decklist** is uploaded to Spicerack **by the start of the tournament** at the latest! 
 
+{{< table-wrapper >}}
 Stage| Date | Location |Registration|Players 
 -----|-------|----------|------------|-------
 1|21.06.2025|[Budde-Haus](https://www.google.com/maps/place/Budde-Haus+%E2%80%93+Soziokulturelles+Zentrum+Leipzig-Gohlis/@51.3637126,12.373675,16z/data=!3m1!4b1!4m6!3m5!1s0x47a6f7fe5605acaf:0x22dbe3eb463a5385!8m2!3d51.3637126!4d12.373675!16s%2Fg%2F1tdvj5yq?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D)|Spicerack-Link|via API
@@ -28,6 +29,7 @@ Stage| Date | Location |Registration|Players
 6|15.11.2025|[Budde-Haus](https://www.google.com/maps/place/Budde-Haus+%E2%80%93+Soziokulturelles+Zentrum+Leipzig-Gohlis/@51.3637126,12.373675,16z/data=!3m1!4b1!4m6!3m5!1s0x47a6f7fe5605acaf:0x22dbe3eb463a5385!8m2!3d51.3637126!4d12.373675!16s%2Fg%2F1tdvj5yq?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D)|Spicerack-Link|via API
 7|06.12.2025|[Budde-Haus](https://www.google.com/maps/place/Budde-Haus+%E2%80%93+Soziokulturelles+Zentrum+Leipzig-Gohlis/@51.3637126,12.373675,16z/data=!3m1!4b1!4m6!3m5!1s0x47a6f7fe5605acaf:0x22dbe3eb463a5385!8m2!3d51.3637126!4d12.373675!16s%2Fg%2F1tdvj5yq?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D)|Spicerack-Link|via API
 8|10.01.2026|[Budde-Haus](https://www.google.com/maps/place/Budde-Haus+%E2%80%93+Soziokulturelles+Zentrum+Leipzig-Gohlis/@51.3637126,12.373675,16z/data=!3m1!4b1!4m6!3m5!1s0x47a6f7fe5605acaf:0x22dbe3eb463a5385!8m2!3d51.3637126!4d12.373675!16s%2Fg%2F1tdvj5yq?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D)|Spicerack-Link|via API
+{{< /table-wrapper >}}
 
 ## Rules
 
