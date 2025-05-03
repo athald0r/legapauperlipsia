@@ -68,7 +68,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --baseURL "legapauperlipsia.de/" \
             --cacheDir "${{ runner.temp }}/hugo_cache" \
             --buildFuture
       - name: Cache Save
