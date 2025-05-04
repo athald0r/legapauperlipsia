@@ -33,7 +33,7 @@ Stage| Date | Location |Registration|Players
 
 ## Rules
 
-The following, general rules apply for each matchday and infringement will lead to immediate disqualification:
+The following, general rules apply for each matchday and infringement **will lead to immediate disqualification**:
 
 1. Commitment to fostering a **friendly, open and welcoming environment**
 2. Adherence to the **[Pauper Banlist](https://magic.wizards.com/en/banned-restricted-list)**
