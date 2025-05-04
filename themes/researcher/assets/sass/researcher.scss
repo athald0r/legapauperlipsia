@@ -60,6 +60,11 @@ $y-medium: 1.0rem;
 .nav-link {
     @extend %link-default;
 }
+.nav-item .active {
+    color: #dc3545 !important; /* Matches your colorRed from hugo.toml */
+    font-weight: bold; /* Optional: make the active link bold */
+    background-color: rgba(220, 53, 69, 0.1); /* Optional: subtle background */
+}
 #content {
     a {
         @extend %link-default;
