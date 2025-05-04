@@ -19,7 +19,7 @@
           {{ $isExternal := or (hasPrefix $nav_item.URL "http://")
                                (hasPrefix $nav_item.URL "https://") }}
           <a
-            class="nav-item nav-link {{ if $currentPage.IsMenuCurrent `main` $nav_item }}active{{ end }}"
+            class="nav-item nav-link{{ if or ($currentPage.IsMenuCurrent `main` $nav_item) ($currentPage.HasMenuCurrent `main` $nav_item) (eq $currentPage.Permalink $nav_item.URL) }} active{{ end }}"
             href="{{ $nav_item.URL }}"
             title="{{ $nav_item.Name }}"
             {{ if $isExternal }}target="_blank" rel="noopener"{{ end }}
