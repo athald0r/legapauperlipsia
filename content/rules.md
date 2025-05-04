@@ -6,6 +6,14 @@ This rule set applies to the second season of the Lega Pauper Lipsia, which roug
 
 General disclaimer: If unspecified, we fall back on reasable defaults defined in the official (LPI rulebook)[https://www.legapauperitalia.it/rulebook]. If you have trouble with terminology used on this page, then please read into the rulebook first.
 
+## Changelog
+Whenever a rule change is made during the season, it will be reflected here.
+| Previous Rule                          | New Rule                              | Effective Date |
+|----------------------------------------|----------------------------------------|----------------|
+| Example #1     | Example #2     | 2025-06-01     |
+
+
+
 # Gamedays
 Each leg follows the same schedule and rules.
 
@@ -20,20 +28,23 @@ TODO: Spicerack stuff.
 - deadlines for gameday registration and what happens when you are too late
 
 ## General Schedule
-Each leg follows the same schedule (every mention will be German time).
+Each leg follows the same schedule.
 
-10.30am: Gameday Registration in spicerack app
-11.00am: Start of 1st Round
-~12.00am: Start of 2nd Round
-~1.00pm: Lunchbreak
-~2.00pm: Start of 3rd Round
-~3.00pm: Start of 4th Round
-~4.00pm: Start of 5th Round
-Latest 6.00pm: Venue closes
+| Time (German)         | Event                                      |
+|--------------|--------------------------------------------|
+| 10:30 AM     | Gameday Registration in Spicerack app      |
+| 11:00 AM     | Start of 1st Round                         |
+| ~12:00 PM    | Start of 2nd Round                         |
+| ~1:00 PM     | Lunchbreak                                 |
+| ~2:00 PM     | Start of 3rd Round                         |
+| ~3:00 PM     | Start of 4th Round                         |
+| ~4:00 PM     | Start of 5th Round                         |
+| Latest 6:00 PM | Venue closes                            |
+
 
 
 ## Date and Place
-The most up-to-date overview of where the tournaments are played can be found on the official (Lega website's landing page)[https://legapauperlipsia.de].
+The most up-to-date overview of where the tournaments are played can be found on the official [Lega website's landing page](https://legapauperlipsia.de).
 
 Even though the dates are communicated to and committed by the venue, they are subject to change if cirmucanstances force such a decision. It is your responsibility to regularly look at the website for the updated information.
 
@@ -51,7 +62,7 @@ Opponent Match Win Percentage (OMW) is the measure of choice everywhere a tiebre
 To give busy players a fair chance at competing for the Paupergeddon Byes, we have implemented a Trophy system. A Trophy is a special price that qualifies the recipient for participation in a Trophy Tournament.
 
 ## Acquisition of a Trophy
-- *TODO* Trophies are handed out to the ... players of each leg as a special price. physical representation mention?
+Trophies are handed out to players that went 4-1 or better on a gameday as a special price. They may be handed out as physical representations while supplies last. The physical representation is not required for the qualification to the Trophy Tournament.
 
 ## Trophy Tournament
 The Trophy Tournament is a randomly seeded single-elemination tournament without round time limits. Each person that received a trophy can participate. The date and place will be announced latest during the final leg of the league and can then be found on the league's landing page.
@@ -63,13 +74,21 @@ The winner of the Trophy Tournament qualifies the winner for the 8th spot in the
 # Top-8 Tournament
 - open decklist?
 
-The Top-8 Tournament is a seeded single-elimination tournament without round time limits. Eligable to participate in this tournament are the top 7 players by standing and the winner (or other finalist) of the Trophy Tournament. The date and place will be announced latest on the day of the Trophy Tournament and can then be found on the league's landing page.
+The Top-8 Tournament is a seeded single-elimination tournament without round time limits. Eligable to participate in this tournament are the top 7 players by final standing (OMW tiebreaker) and the winner (or other finalist) of the Trophy Tournament. The date and place will be announced latest on the day of the Trophy Tournament and can then be found on the league's landing page.
 
-# Byes
+This tournament is Top-4 seeded, which means that the top four players by final standings do not face each other in the first round. Instead, #1 and #4 start on one side of the tournament tree, #2 and #3 on the other. Places #5-#8 are then randomly assigned to the open slots. The Tournament shall be played out on demand (losers getting paired) in case the Paupergeddon Bye needs to be redistributed.
 
-# LPI Playerpoints
+# Byes and World Cup
+The Lega Pauper Lipsia Seasons are Winter Seasons ("Road to Lecco"). The Paupergeddon Byes awarded by the Lega Pauper Italia (LPI) are allocated to the best player by final standing, and if the threshold for the second bye is reached, it will be allocated to the Top-8 Tournament winner. Byes can only be assigned to people who are planning on attending the Paupergeddon. If a person who won a Bye is not attending the Paupergeddon, it shall be redistributed to the next eligable person. For the standings Bye, it is passed down in the order of the final standings. The Tournament Bye would be offered to the other finalist first, before being passed down further. If required, the losers brackets must be played out for a definitive passing order.
 
-# Prices
+LPI rules apply: No Player can have two Byes and Byes can only be assigned to the defined Top-8.
+
+The World Cup seats for the Paupergeddon are awarded to the two Byes and then by final league standings. Again, these can only be awarded to players participating in the Paupergeddon.
+
+# LPI Points
+Affiliated Leagues are eligable for collecting LPI Points. For an up-to-date overview, please look into the [LPI Rulebook](https://www.legapauperitalia.it/rulebook).
+
+# Entry Fee, Promos, and Prices
 
 # Misconduct
 - tournament organizer can ban you from future events?
