@@ -35,14 +35,13 @@ Stage| Date | Location |Registration|Players
 
 The following, general rules apply for each matchday and infringement will lead to immediate disqualification:
 
-1. **[REL Regular](https://mtg.fandom.com/wiki/Rules_Enforcement_Level)** with playing judges
-2. **5-6 rounds** of Swiss, no Top8
-3. Adherence to the **[Pauper Banlist](https://magic.wizards.com/en/banned-restricted-list)**
+1. Commitment to fostering a **friendly, open and welcoming environment**
+2. Adherence to the **[Pauper Banlist](https://magic.wizards.com/en/banned-restricted-list)**
+3. **[REL Regular](https://mtg.fandom.com/wiki/Rules_Enforcement_Level)** with playing judges
 4. **Proxy-friendly**, as long as proxies do not provide an unfair advantage
 5. **Decklist must be uploaded** by the start of the tournament
-6. Commitment to fostering a **friendly, open and welcoming environment**
 
-For the complete, extended rules of our league, please head over to **[Rules]({{< ref "/rules/" >}})**
+For the full, expanded set of rules for our league, **[click here]({{< ref "/rules/" >}})**!
 
 ## Prizes
 
