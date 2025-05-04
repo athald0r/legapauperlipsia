@@ -16,7 +16,7 @@
         {{ $currentPage := $.Page }} <!-- Capture current page context -->
         {{ range $i, $nav_item := . }}
           {{/* Debug URLs */}}
-          {{ printf "Current Page: %s, Menu Item: %s" ($currentPage.Permalink | absURL) ($nav_item.URL | absURL) }}
+      
           {{/* is this link “external”? */}}
           {{ $isExternal := or (hasPrefix $nav_item.URL "http://") (hasPrefix $nav_item.URL "https://") }}
           <a
