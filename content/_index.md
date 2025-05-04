@@ -33,7 +33,7 @@ Stage| Date | Location |Registration|Players
 
 ## Rules
 
-The following rules apply for each matchday and infringement will lead to disqualification:
+The following, general rules apply for each matchday and infringement will lead to immediate disqualification:
 
 1. **[REL Regular](https://mtg.fandom.com/wiki/Rules_Enforcement_Level)** with playing judges
 2. **5-6 rounds** of Swiss, no Top8
@@ -41,6 +41,8 @@ The following rules apply for each matchday and infringement will lead to disqua
 4. **Proxy-friendly**, as long as proxies do not provide an unfair advantage
 5. **Decklist must be uploaded** by the start of the tournament
 6. Commitment to fostering a **friendly, open and welcoming environment**
+
+For the complete, extended rules of our league, please head over to **[Rules]({{< ref "/rules/" >}})**
 
 ## Prizes
 
