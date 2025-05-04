@@ -14,9 +14,9 @@ As an official **[LPI-affiliated league](https://www.legapauperitalia.it/home)**
 
 ## Dates and Registration
 
-Our league will take place once a month, with organisation, registration and all other details handled through **[Spicerack](https://www.spicerack.gg/events/discover)**. The entry fee for each event is **10€**, paid directly via Spicerack. Please also note that refunds are **only available up to 48 hours** before the event. If you somehow cannot pay through Spicerack, please **[contact us](mailto:lega.lipsia@gmail.com)**! 
+Our league will take place once a month, with organisation, registration and all other details handled by **[Spicerack](https://www.spicerack.gg/events/discover)**. The entry fee for each event is **10€**, paid directly via Spicerack. Please note that refunds are **only possible up to 48 hours** before the event. If you are unable to pay via Spicerack for any reason, please **[contact us](mailto:lega.lipsia@gmail.com)**! 
 
-To register for an event, simply click the related link below. Once registered, ensure your **decklist** is uploaded to Spicerack **by the start of the tournament** at the latest! 
+To register for an event, simply click the related link below. Once registered, ensure your **decklist** is uploaded to Spicerack **by the start of the event** at the latest! 
 
 {{< table-wrapper >}}
 Stage| Date | Location |Registration|Players 
@@ -39,7 +39,7 @@ The following, general rules apply for each matchday and infringement **will lea
 2. Adherence to the **[Pauper Banlist](https://magic.wizards.com/en/banned-restricted-list)**
 3. **[REL Regular](https://mtg.fandom.com/wiki/Rules_Enforcement_Level)** with playing judges
 4. **Proxy-friendly**, as long as proxies do not provide an unfair advantage
-5. **Decklist must be uploaded** by the start of the tournament
+5. **Decklist must be uploaded** by the start of the event
 
 For the full, expanded set of rules for our league, **[click here]({{< ref "/rules/" >}})**!
 
