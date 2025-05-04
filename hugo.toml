@@ -53,11 +53,11 @@ staticDir = "static"
   [[menu.main]]
     name = "Merchandise"
     url = "https://www.aufdemdach.com/prints"
-    weight = 5
+    weight = 6
   [[menu.main]]
     name = "About Us"
     url = "/contact/"
-    weight = 6
+    weight = 5
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
