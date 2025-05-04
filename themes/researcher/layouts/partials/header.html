@@ -13,20 +13,19 @@
     <div class="navbar-nav flex-row flex-wrap justify-content-center">
       {{ with .Site.Menus.main }}
         {{ $navbar_len := len . }}
+        {{ $currentPage := $.Page }} <!-- Capture current page context -->
         {{ range $i, $nav_item := . }}
           {{/* is this link “external”? */}}
           {{ $isExternal := or (hasPrefix $nav_item.URL "http://")
                                (hasPrefix $nav_item.URL "https://") }}
-
           <a
-            class="nav-item nav-link"
+            class="nav-item nav-link {{ if $currentPage.IsMenuCurrent `main` $nav_item }}active{{ end }}"
             href="{{ $nav_item.URL }}"
             title="{{ $nav_item.Name }}"
             {{ if $isExternal }}target="_blank" rel="noopener"{{ end }}
           >
             {{ $nav_item.Pre }}{{ $nav_item.Name }}{{ $nav_item.Post }}
           </a>
-
           {{ if ne (add $i 1) $navbar_len }}
             <span class="nav-item navbar-text mx-1">/</span>
           {{ end }}
@@ -36,4 +35,3 @@
   </nav>
 </div>
 <hr>
-
