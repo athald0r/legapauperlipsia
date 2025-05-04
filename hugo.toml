@@ -17,7 +17,7 @@ staticDir = "static"
   [params.style]  # appearance options (can be omitted)
     fontFamily = "Inconsolata"
     fontSize = "14pt"
-    pageWidth = "1000px"
+    pageWidth = "1100px"
     avatarSize = "90px"
     colorBlack = "#222222"
     colorRed = "#dc3545"
