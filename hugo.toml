@@ -40,15 +40,15 @@ staticDir = "static"
     weight = 1
   [[menu.main]]
     name = "Rules"
-    url = "/rules"
+    url = "/rules/"
     weight = 2
   [[menu.main]]
     name = "Standings"
-    url = "/standings"
+    url = "/standings/"
     weight = 3
   [[menu.main]]
     name = "Blog"
-    url = "/blog"
+    url = "/blog/"
     weight = 4
   [[menu.main]]
     name = "Merchandise"
@@ -56,7 +56,7 @@ staticDir = "static"
     weight = 5
   [[menu.main]]
     name = "About Us"
-    url = "/contact"
+    url = "/contact/"
     weight = 6
 
 [markup.goldmark.renderer]
