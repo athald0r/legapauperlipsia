@@ -1,0 +1,20 @@
+h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 a {
+  color: #333;
+  text-decoration: none;
+}
+
+h2 .post-date {
+  font-size: 1rem;
+  color: #888;
+  margin-left: 10px;
+}
+
+p {
+  margin-top: 0;
+}

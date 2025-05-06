@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <article class="container">
+    <link rel="stylesheet" href="{{ "/css/blog.css" | relURL }}">
+
+    <div class="post-header">
+      <div class="post-meta-left">
+        <h1 class="blog-post-title">{{ .Title }}</h1>
+
+        <div class="blog-post-meta">
+          <span class="blog-post-date">{{ .Date.Format "2 January 2006" }}</span>
+          <span class="blog-post-author">By {{ .Params.author }}</span>
+          <span class="blog-post-category">{{ .Params.category }}</span>
+        </div>
+      </div>
+
+      {{ if .Params.featured_image }}
+        <div class="featured-image-container">
+          <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}" class="featured-image">
+        </div>
+      {{ end }}
+    </div>
+
+    <div class="blog-post-content">
+      {{ .Content }}
+    </div>
+
+  </article>
+{{ end }}

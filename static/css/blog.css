@@ -1,0 +1,41 @@
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.post-meta-left {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.blog-post-title {
+  font-size: 2.5rem;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.blog-post-meta {
+  font-size: 1rem;
+  color: #666;
+}
+
+.blog-post-meta span {
+  margin-right: 15px;
+}
+
+.featured-image-container {
+  max-width: 10%; /* width image container */
+}
+
+.featured-image {
+  width: 100%;
+  height: auto;
+}
+
+.blog-post-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}

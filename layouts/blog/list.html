@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <section class="container">
+      <link rel="stylesheet" href="{{ "/css/list.css" | relURL }}">
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Params.description }}</p>
+
+      {{ range .Pages }}
+        <article>
+          <h2>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <span class="post-date">{{ .Date.Format "2 January 2006" }}</span>
+          </h2>
+          <p>{{ .Params.description }}</p>
+        </article>
+      {{ end }}
+  </section>
+{{ end }}
