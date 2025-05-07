@@ -4,7 +4,7 @@ title = "Lega Pauper Lipsia"
 
 ## Background
 
-{{< figure class="pic" src="/images/avatar.png" alt="avatar">}} 
+{{< figure class="pic" src="/images/LPL.svg" alt="LPL">}} 
 
 Welcome to Leipzig's Pauper League! We are the <u>first and only league</u> in Germany that is officially affiliated with the **[Lega Pauper Italia](https://www.legapauperitalia.it/home)** and therefore directly connected to the Paupergeddon tournaments as well as Pauper players all over Europe. After a successful inaugural season last winter with an average of 26 players, we are now taking the next logical step: doubling up for the upcoming second season! We're proud to announce that the next season of **Lega Pauper Lipsia** will run from **June 2025 to January 2026** over **8 matchdays**, with a capacity of **up to 64 players**!
 
