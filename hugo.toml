@@ -56,7 +56,7 @@ staticDir = "static"
     weight = 6
   [[menu.main]]
     name = "About Us"
-    url = "/contact/"
+    url = "/about_us/"
     weight = 5
 
 [markup.goldmark.renderer]
