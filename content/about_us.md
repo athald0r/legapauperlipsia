@@ -2,7 +2,7 @@
 title = "About Us"
 +++
 
-{{< figure src="/images/PTTP.svg" title="PTTP" width="400" class="center">}}
+{{< figure src="/images/PTTP.svg" width="600" class="center">}}
 
 We, the open Leipzig Magic group **Pauper to the People**, have been playing Pauper and other formats together on a regular basis for almost 10 years. What started as a group of friends trying out a budget friendly competitive Magic format has now become one of the **biggest community driven Magic projects in Europe**! This includes social Pauper evenings, internal prereleases, organised meetings for newer players and of course our great Pauper league.
 
