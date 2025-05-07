@@ -2,6 +2,10 @@
 title = "Lega Pauper Lipsia"
 +++
 
+## Disclaimer
+This site is still work-in-progress as long as this disclaimer is here :D
+Information is subject to change!!!
+
 ## Background
 
 {{< figure class="pic" src="/images/LPL.svg" alt="LPL">}} 
