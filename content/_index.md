@@ -6,7 +6,7 @@ title = "Lega Pauper Lipsia"
 
 {{< figure class="pic" src="/images/LPL.svg" alt="LPL">}} 
 
-Welcome to Leipzig's Pauper League! We are the <u>first and only league</u> in Germany that is officially affiliated with the **[Lega Pauper Italia](https://www.legapauperitalia.it/home)** and therefore directly connected to the Paupergeddon tournaments as well as Pauper players all over Europe. After a successful inaugural season last winter with an average of 26 players, we are now taking the next logical step: doubling up for the upcoming second season! 
+Welcome to Leipzig's Pauper League! We are the **<u>first and only league</u>** in Germany that is officially affiliated with the **[Lega Pauper Italia](https://www.legapauperitalia.it/home)** and therefore directly connected to the Paupergeddon tournaments as well as Pauper players all over Europe. After a successful inaugural season last winter with an average of 26 players, we are now taking the next logical step: doubling up for the upcoming second season! 
 
 ## League Information
 
