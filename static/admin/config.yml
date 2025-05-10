@@ -3,7 +3,7 @@ backend:
   repo: athald0r/legapauperlipsia
   branch: main
   base_url: https://legapauperlipsia.de  # Your VPS URL
-  auth_endpoint: /api/auth
+  auth_endpoint: /auth
 media_folder: static/images
 public_folder: /public
 # below is fully TODO
