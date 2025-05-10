@@ -18,13 +18,13 @@ Whenever a rule change is made during the season, it will be reflected here.
 Each leg follows the same schedule and rules.
 
 ## Tournament Mode
-The tournament mode is five rounds of swiss, where each bye counts as a full win. Pairings are distributed in the spicerack app. Each round has a regular play time of 50 minutes with 5 overtime turns starting at the next upkeep after the timer has concluded.
+The tournament mode is five rounds of swiss, where each bye counts as a full win. Pairings are distributed in the spicerack app. Each round has a regular play time of 50 minutes with 5 overtime turns starting at the next upkeep after the timer has concluded. The chosen format is Pauper. You must play a tournament legal deck and adhere to the official Pauper banlist.
 
 ## Registration
 TODO: Spicerack stuff.
 - what to submit where when?
 - how is pre-registration handled and what associated rights do you have
-- what if all slots from pre-registration are taken - do we have a queue?
+- what if all slots from pre-registration are taken - do we have a queue? how are people informed?
 - deadlines for gameday registration and what happens when you are too late
 
 ## General Schedule
@@ -49,7 +49,7 @@ The most up-to-date overview of where the tournaments are played can be found on
 Even though the dates are communicated to and committed by the venue, they are subject to change if cirmucanstances force such a decision. It is your responsibility to regularly look at the website for the updated information.
 
 ## Judging
-We are a community-driven league that is built on principles such as fairness, friendliness, and mindfulness. Even though we expect every participant to adhere to these principles, mistakes can happen. To clear up mistakes and their impact on a match, there will be a judge selected from the community for each gameday, who will most likely also play. The Rule Enforcement Level (REL) is ..., which means ... . The rulings of the selected judge have to obliged to, or the non-compliant player risks exclusion from the gameday, in which case they will not receive any league points for said day (counts as non-attendence). If there needs to be a judge decision in your game while you face the selected judge as your opponent, you are eligable for a second opinion. Please inform your tournament organizer should such an event occur.
+We are a community-driven league that is built on principles such as fairness, friendliness, and mindfulness. Even though we expect every participant to adhere to these principles, mistakes can happen. To clear up mistakes and their impact on a match, there will be a judge selected from the community for each gameday, who will most likely also play. The Rule Enforcement Level (REL) is regular, which can be read about [here](https://mtg.fandom.com/wiki/Rules_Enforcement_Level). The rulings of the selected judge have to obliged to, or the non-compliant player risks exclusion from the gameday, in which case they will not receive any league points for said day (counts as non-attendence). If there needs to be a judge decision in your game while you face the selected judge as your opponent, you are eligable for a second opinion. Please inform your tournament organizer should such an event occur.
 
 If the selected judge has to leave their table for a judge call, their match gets put on hold and the lost time will be added to their individual round time.
 
@@ -65,11 +65,9 @@ To give busy players a fair chance at competing for the Paupergeddon Byes, we ha
 Trophies are handed out to players that went 4-1 or better on a gameday as a special price. They may be handed out as physical representations while supplies last. The physical representation is not required for the qualification to the Trophy Tournament.
 
 ## Trophy Tournament
-The Trophy Tournament is a randomly seeded single-elemination tournament without round time limits. Each person that received a trophy can participate. The date and place will be announced latest during the final leg of the league and can then be found on the league's landing page.
-- you are not eligable for no damages if you cant make it
+The Trophy Tournament is a randomly seeded single-elemination tournament without round time limits. Each person that received a trophy can participate. The date and place will be announced latest during the final leg of the league and can then be found on the league's landing page. This date will be fixed and there won't be any reimbursement whatsoever in case a trophy holder cannot attend.
 
-The winner of the Trophy Tournament qualifies the winner for the 8th spot in the Top-8 Tournament.
-- do we pass on the spot if the winner cannot make it to the top8 tournament? "If the winner expects to not participate in the Top-8 Tournament, they may pass on their spot to the other finalist."
+The winner of the Trophy Tournament qualifies for the 8th spot in the Top-8 Tournament. If the winner expects to not participate in the Top-8 Tournament, they may pass on their spot to the other finalist.
 
 # Top-8 Tournament
 - open decklist?
@@ -89,6 +87,19 @@ The World Cup seats for the Paupergeddon are awarded to the two Byes and then by
 Affiliated Leagues are eligable for collecting LPI Points. For an up-to-date overview, please look into the [LPI Rulebook](https://www.legapauperitalia.it/rulebook).
 
 # Entry Fee, Promos, and Prices
+Each entry free is set to 10€. There are Promos for participation which can be chosen after registrating at the venue. Prices are provided by the tournament organizers and may vary from gameday to gameday.
 
 # Misconduct
-- tournament organizer can ban you from future events?
+Our community is rooted in principles of mutual respect, solidarity, and collective care. As such, all participants are expected to treat one another with respect and to contribute to a welcoming, inclusive, and safe environment for *everyone*.
+
+**Unacceptable behavior** includes, but is not limited to:
+
+- Harassment of any kind (including but not limited to sexist, racist, transphobic, ableist, or homophobic remarks or actions)
+- Intimidation, threats, or aggressive conduct
+- Repeatedly violating personal boundaries
+- Cheating, stealing, or otherwise manipulating games or participants in bad faith
+- Any behavior that makes others feel unsafe or unwelcome
+
+If a participant engages in misconduct, they may be asked to leave immediately and may be barred from attending future events. This decision will be made by the organizers with the well-being of the community as the guiding priority. We reserve the right to deny entry or remove any person whose presence is disruptive or harmful, with or without prior warning.
+
+If you witness or experience misconduct, please speak to the organizers as soon as you feel safe to do so.
