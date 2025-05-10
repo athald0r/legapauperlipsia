@@ -1,5 +1,5 @@
 title = "Lega Pauper Lipsia"
-baseURL = "https://example.com"
+baseURL = "https://legapauperlipsia.de"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
