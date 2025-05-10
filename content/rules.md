@@ -42,7 +42,6 @@ Each leg follows the same schedule.
 | Latest 6:00 PM | Venue closes                            |
 
 
-
 ## Date and Place
 The most up-to-date overview of where the tournaments are played can be found on the official [Lega website's landing page](https://legapauperlipsia.de).
 
@@ -52,6 +51,15 @@ Even though the dates are communicated to and committed by the venue, they are s
 We are a community-driven league that is built on principles such as fairness, friendliness, and mindfulness. Even though we expect every participant to adhere to these principles, mistakes can happen. To clear up mistakes and their impact on a match, there will be a judge selected from the community for each gameday, who will most likely also play. The Rule Enforcement Level (REL) is regular, which can be read about [here](https://mtg.fandom.com/wiki/Rules_Enforcement_Level). The rulings of the selected judge have to obliged to, or the non-compliant player risks exclusion from the gameday, in which case they will not receive any league points for said day (counts as non-attendence). If there needs to be a judge decision in your game while you face the selected judge as your opponent, you are eligable for a second opinion. Please inform your tournament organizer should such an event occur.
 
 If the selected judge has to leave their table for a judge call, their match gets put on hold and the lost time will be added to their individual round time.
+
+## Proxy Requirements
+
+Proxies are explicitly allowed, but please follow these guidelines:
+
+- **Legibility:** All cards must be clearly readable — name, mana cost, and effect should be easy to understand.
+- **Quality:** Please use colored print outs of regular set printings.
+
+If you're unsure whether your deck meets the requirements, just check in with us before the tournament starts. Your opponent has the right to double check the oracle text, please call a judge if necessary.
 
 # Standings, Points, and Tiebreaker
 Each game day you can collect points for the league's standings, which is one way to qualify yourself for the top-8 tournament. A match win counts as 3 points, a tie for 1, and a loss counts as 0 points. Your final standing of the season is the sum of your best 6 attendences of the 8 possible ones. If you have participated in less than 6 legs, your final standing will be the sum of all of your attendences.
